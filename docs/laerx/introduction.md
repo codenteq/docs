@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Introduction
 
 **Laerx** is a course management system provided by [Codenteq](https://github.com/codenteq) to create a consistent driver license experience for app users.

@@ -1,4 +1,21 @@
-# Quickstart
+---
+sidebar_position: 3
+---
+
+# Configuration
+
+## Billable Model
+
+Before using Cashier, add the `Billable` trait to your billable model definition. Typically, this will be the `App\Models\User` model. This trait provides various methods to allow you to perform common billing tasks, such as creating subscriptions, applying coupons, and updating payment method information:
+
+```php
+use Codenteq\Iyzico\Billable;
+
+class User extends Authenticatable
+{
+    use Billable;
+}
+```
 
 ## API Keys
 
@@ -34,20 +51,18 @@ To find out where;
 3. Under the **Merchant Settings** page, go for API Keys section.
 Once you click on **Show detail**, there are the magic begins.
 
-Once the package is installed:
+```ini
+IYZICO_API_KEY=
+IYZICO_SECRET_KEY=
+IYZICO_BASE_URL=
+```
 
-1. Add your API credentials to `.env`.
+> To use the subscription feature in your application, you need to get approval for the subscription menu by contacting [email](mailto:destek@iyzico.com) or by calling the iyzico support hotline.
 
-   ```ini
-   IYZICO_API_KEY=
-   IYZICO_SECRET_KEY=
-   IYZICO_BASE_URL=
-   ```
-2. Clear cache and optimize:
+## Currency Configuration
 
-   ```shell
-   php artisan config:cache
-   php artisan optimize
-   ```
-3. Open your Bagisto admin panel and configure the Iyzico gateway under **Payment Methods**.
-4. Start receiving payments securely with Iyzico!
+The default Cashier currency is Turkis Lira (TRY). You can change the default currency by setting the `CASHIER_CURRENCY` environment variable within your application's `.env` file:
+
+```ini
+CASHIER_CURRENCY=USD
+```

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Installation
 
 ## Composer Installation
@@ -27,8 +31,6 @@
    ```shell
    php artisan optimize
    ```
-
----
 
 ## Installation Without Composer
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Installation
 
 First, install the Cashier package for Iyzico using the Composer package manager:

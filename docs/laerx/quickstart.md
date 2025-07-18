@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Quickstart
 
 1. **Install Dependencies**

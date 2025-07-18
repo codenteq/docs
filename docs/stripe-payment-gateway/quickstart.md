@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Quickstart
 
 Once the package is installed:

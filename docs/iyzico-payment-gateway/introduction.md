@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Introduction
 
 Install this package to start receiving secure and efficient payments via **Iyzico** in your Bagisto store. The integration is optimized for PHP 8.1+ and Bagisto v2.\*, ensuring modern features and performance.

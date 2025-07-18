@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Configuration
 
 After installation, configure your environment variables in the `.env` file:
