@@ -1,0 +1,8 @@
+{
+  "label": "Stripe Payment Gateway",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "The Laravel eCommerce Stripe Payment Gateway"
+  }
+}

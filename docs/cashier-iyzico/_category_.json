@@ -1,0 +1,8 @@
+{
+  "label": "Cashier Iyzico",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Laravel Cashier provides an expressive, fluent interface to Iyzico's subscription billing services."
+  }
+}

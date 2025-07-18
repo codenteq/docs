@@ -1,6 +1,6 @@
 # Codenteq Documentation
 
-You can find the online version of the Codenteq documentation at [https://docs.codenteq.com](https://codenteq.com)
+You can find the online version of the Codenteq documentation at [https://docs.codenteq.com](https://docs.codenteq.com)
 
 ## Contribution Guidelines
 

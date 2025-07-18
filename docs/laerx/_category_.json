@@ -1,0 +1,8 @@
+{
+  "label": "Laerx",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "An easy-to-use, free and open source laravel e-Exam platform to build your online course right away."
+  }
+}
